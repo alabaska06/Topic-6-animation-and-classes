@@ -18,8 +18,6 @@ namespace Topic_6_animation_and_classes
 
         Tribble tribble1, tribble2, tribble3, tribble4;
 
-        //SoundEffect coo;
-        //SoundEffectInstance cooInstance;
 
         Texture2D introscreenTexture;
 
@@ -75,9 +73,7 @@ namespace Topic_6_animation_and_classes
             tribbleBrownTexture = Content.Load<Texture2D>("tribbleBrown");
             introscreenTexture = Content.Load<Texture2D>("introscreen");
             introfont = Content.Load<SpriteFont>("File");
-            //coo = Content.Load<SoundEffect>("tribble_coo");
-            // cooInstance = coo.CreateInstance();
-            // TODO: use this.Content to load your game content here
+          
         }
 
         protected override void Update(GameTime gameTime)
