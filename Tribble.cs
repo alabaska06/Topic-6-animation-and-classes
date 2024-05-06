@@ -11,6 +11,7 @@ namespace Animation
 {
     internal class Tribble
     {
+        // Alanna
         private Texture2D _texture;
         private Rectangle _rectangle;
         private Vector2 _speed;
