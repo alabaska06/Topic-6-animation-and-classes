@@ -57,7 +57,7 @@ namespace Animation
             _rectangle.Offset(_speed);
             if (_rectangle.Right > graphics.PreferredBackBufferWidth || _rectangle.Left < 0)
             {
-                _speed.X *= -2;
+                _speed.X *= -2;//speeds up
             }
             if (_rectangle.Bottom > graphics.PreferredBackBufferHeight || _rectangle.Top < 0)
             {
